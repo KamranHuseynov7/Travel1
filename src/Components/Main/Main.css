@@ -1,0 +1,120 @@
+.main {
+    background: url(https://cdn.hiconsumption.com/wp-content/uploads/2019/07/Best-Affordable-Camping-Gear-000-Hero.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 768px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+
+}
+
+.d-flex{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text {
+    width: 40%;
+
+}
+
+.text h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 55px;
+}
+
+.text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.spanmain{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.but1  {
+    text-decoration: none;
+    color: rgb(249, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 40%;
+   
+}
+button {
+    border-color: 1px rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+
+.img {
+    display: flex;
+    width: 40%;
+    height: 150px;
+    
+}
+
+
+
+.icon  {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-top: 45px;
+  
+
+}
+
+.hiking {
+    margin-left: 15px;
+    margin-top: 32px;
+
+}
+
+.img h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+   
+}
+
+.img p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+     
+    .img p {
+        font-size: 12px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #e10000;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+}

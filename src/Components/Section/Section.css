@@ -1,0 +1,32 @@
+
+ .h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+    margin-top: 55px;
+    
+}
+.photo{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+  justify-content: center;
+  margin: 25px;
+  height: 390px;
+  width: 390px;
+
+}
+
+.h3{
+color: rgb(29, 0, 0);
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-right: 25px;
+}
+
+
+@media (max-width: 768px) {
+
+
+}

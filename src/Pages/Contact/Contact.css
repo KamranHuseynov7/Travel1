@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.contact {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    padding-top: 65px;
+}
+
+.left {
+    width: 50%;
+   
+    background-image: url("https://wallpapercave.com/wp/wp9262347.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 250px;
+    padding: 1.5rem;
+}
+
+.right {
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 36px 40px;
+}
+
+
+.h1c {
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+}
+
+.p1c {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: 0.01rem;
+   
+    margin: 5px 0;
+}
+h4{
+    color: red;
+}
+
+
+
+form {
+
+
+    margin-top: 32px;
+    padding: 16px 0;
+}
+
+.inp,
+textarea,
+label {
+    width: 40vw;
+    display: block;
+    color: black;
+    font-weight: 800;
+}
+
+
+
+.inp::placeholder,
+textarea::placeholder {
+    color: rgb(160, 0, 0);
+    font-weight: 700;
+}
+
+.inp {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    background: #FCFDFD;
+    border: none;
+    border-bottom: 1px solid #818386;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+    font-size: 15px;
+
+
+}
+
+textarea {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background: #FCFDFD;
+    border: none;
+    border-bottom: 1px solid #818386;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: #3B3636;
+    color: #FCFDFD;
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    .inp,
+    textarea,
+    .btn {
+        font-size: 0.65rem;
+    }
+
+    .description {
+        font-size: 0.3rem;
+        margin-left: 0.4rem;
+    }
+
+    .btn {
+        width: 7rem;
+    }
+
+    .right {
+       
+        width: 100%;
+        
+    }
+    .left{
+        width: 100%;
+    }
+}
